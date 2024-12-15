@@ -66,6 +66,7 @@
         "build.zig.zon",
         "spirv_reflect.c",
         "spirv_reflect.h",
+        "include",
         "LICENSE",
         //"README.md",
     },
