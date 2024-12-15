@@ -24,11 +24,11 @@ pub fn build(b: *std.Build) void {
     });
 
     lib.installHeader(b.path("spirv_reflect.h"), "spirv_reflect.h");
-    lib.installHeadersDirectory(b.path("include"), "", .{});
+    lib.installHeadersDirectory(b.path("include"), "include", .{});
     lib.addIncludePath(b.path("include"));
     lib.addCSourceFile(.{
         .file = b.path("spirv_reflect.c"),
-        .flags = &.{"-DSPIRV_REFLECT_USE_SYSTEM_SPIRV_H=1"},
+        .flags = &.{""},
     });
     lib.linkLibC();
 
