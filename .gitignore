@@ -1,4 +1,4 @@
-/build*
+/build*/
 /bin/*
 bazel-bin
 bazel-genfiles
@@ -8,3 +8,5 @@ bazel-SPIRV-Reflect
 bazel-testlogs
 /.vs
 /.vscode
+.zig-cache
+zig-out

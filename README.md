@@ -1,4 +1,6 @@
-# SPIRV-Reflect
+# SPIRV-Reflect with Zig build system
+
+Just run zig build or include it as a dependency.
 
 SPIRV-Reflect is a lightweight library that provides a C/C++ reflection API for
 [SPIR-V](https://www.khronos.org/spir/) shader bytecode in
